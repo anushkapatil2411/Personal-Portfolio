@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Anushka Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Anushka<span> Patil</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li class="link"><a href="#home">Home</a></li>
+        <li class="link"><a href="#about">About</a></li>
+        <li class="link"><a href="#resume">Resume</a></li>
+        <li class="link"><a href="#projects">Projects</a></li>
+        <li class="link"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <h4>Hello, I'm Anushka Patil</h4>
+        <h1>UI/UX & Creative Designer</h1>
+        <p class="section__description">
+          In the World of design, I blend UX expertise with creative flair. As a UI/UX & Creative Designer, my portfolio is a visual journey where innovation and aesthetics come together. Welcome to a space where every pixel tells a story and every interaction is a masterpiece.
+        </p>
+        <div class="header__btns">
+          <button class="btn btn__primary" id="download-cv">Download Resume</button>
+          <button class="btn btn__secondary"><a href="#projects">My Works</a></button>
+        </div>
+      </div>
+    </header>
+
+<!--About-->
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/anushka pink.jpeg" alt="about" />
+      </div>
+      <div class="about__content">
+        <h4>Let's Introduce About Myself</h4>
+        <p class="section__description">
+         Hi, I'm Anushka, a passionate UI/UX and Creative Designer focused on enhancing digital experiences. 
+         With a sharp eye for detail and a creative touch,<span> I turn ideas into impactful digital designs.</span> 
+         My work blends user-centered design with aesthetic innovation to create engaging and memorable interactions.
+        </p>
+        <p class="section__description">
+          Let's create a visual journey that redefines the <span>digital landscape</span>
+        </p>
+        <div class="about__progress">
+          <h5>UX Design</h5>
+          <div class="about__progressbar" data-progress="95"><span></span></div>
+          <h5>Visual Storytelling</h5>
+          <div class="about__progressbar" data-progress="75"><span></span></div>
+          <h5>Graphic Design</h5>
+          <div class="about__progressbar" data-progress="80"><span></span></div>
+          <h5>Figma</h5>
+          <div class="about__progressbar" data-progress="70"><span></span></div>
+        </div>
+      </div>
+    </section>
+
+<!--What I Do-->
+
+    <section class="service" id="service">
+      <div class="section__container service__container">
+        <h2 class="section__header">What I Do</h2>
+        <p class="section__description">
+          I craft seamless digital experiences by blending intuitive UX design with captivating visuals.
+           From user-centered interfaces to engaging visual storytelling, I bring creativity and attention to detail
+            to every project.
+        </p>
+        <div class="service__grid">
+          <div class="service__card">
+            <span><i class="ri-mac-line"></i></span>
+            <div>
+              <h4>UX/UI Design</h4>
+              <p>
+                I craft seamless and user-centered designs, focusing on creating intuitive interfaces and exceptional
+                 user experiences
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-quill-pen-fill"></i></span>
+            <div>
+              <h4>Visual Branding</h4>
+              <p>
+                I'm specialize in creating cohesive visual elements that
+                communicate your brand's personality and resonate with your
+                target audience.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-heart-line"></i></span>
+            <div>
+              <h4>Web Design</h4>
+              <p>
+                I bring ideas to life through creative graphic design and unique illustrations, 
+                adding visual flair and storytelling to every project.
+              </p>
+            </div>
+          </div>
+          <div class="service__card">
+            <span><i class="ri-customer-service-fill"></i></span>
+            <div>
+              <h4>Graphic Design and Illustration</h4>
+              <p>
+                Elevate your content with striking visuals and designing
+                marketing materials through our graphic design and illustration
+                services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Resume-->
+
+    <section class="section__container resume__container" id="resume">
+      <h2 class="section__header">My Qualifications</h2>
+      <p class="section__description">
+        I’m passionate about learning and have gained experience through hands-on projects, always staying up-to-date with the latest design trends.
+      </p>
+      <div class="resume__tabs">
+        <div class="resume__tablist">
+          <button class="btn active" data-tab="1">Education</button>
+          <button class="btn" data-tab="2">Experience</button>
+        </div>
+        <div class="resume__tabpanel">
+          <div class="panel__grid active" data-panel="1">
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Bachelor's in Computer Science</h4>
+              <p class="section__description">RD National College, Mumbai</p>
+              <p class="section__description">
+                With a Bachelor's in Computer Science, I've developed strong skills in creating visually engaging designs.
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Higher Secondary</h4>
+              <p class="section__description">Apostolic Carmel Convent High School, Mumbai</p>
+              <p class="section__description">
+                Have completed my higher secondary education from Apostolic Carmel Convent High School, Mumbai              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-graduation-cap-fill"></i></span>
+              <h4>Professional Certification in Web Development & Graphic Design</h4>
+              <p class="section__description">
+                Udemy
+              </p>
+              <p class="section__description">
+                A certification in Web Development and Graphic Design highlights my dedication to combining design creativity with technical functionality
+              </p>
+            </div>
+          </div>
+          <div class="panel__grid" data-panel="2">
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>Graphic Designing</h4>
+              <p class="section__description">
+                Tech Tales
+              </p>
+              <p class="section__description">
+                Designed graphics for the college magazine (Tech Tales), improving its look and making it more attractive to readers.
+              </p>
+            </div>
+            <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>UI/UX Intern</h4>
+              <p class="section__description">63 Moons Tech Limited.</p>
+              <p class="section__description">
+                As a UI/UX Intern, I am dedicated to honing my craft and
+                cultivating creative instincts.
+              </p>
+            </div>
+      <!--     <div class="panel__card">
+              <span><i class="ri-macbook-fill"></i></span>
+              <h4>Senior Design Strategist</h4>
+              <p class="section__description">Shaping Vision into Impact</p>
+              <p class="section__description">
+                As a Senior Design Strategist, my focus extends beyond execution
+                to strategic design thinking.
+              </p>
+            </div>--> 
+          </div>
+        </div>
+      </div>
+    </section>
+<!--
+    <section class="banner">
+      <div class="section__container banner__container">
+        <div class="banner__card">
+          <h4>8+</h4>
+          <p>Years of Experience</p>
+        </div>
+        <div class="banner__card">
+          <h4>50+</h4>
+          <p>Completed Projects</p>
+        </div>
+        <div class="banner__card">
+          <h4>30+</h4>
+          <p>Satisfied Clients</p>
+        </div>
+        <div class="banner__card">
+          <h4>15+</h4>
+          <p>Global Reach</p>
+        </div>
+      </div>
+    </section>
+  -->
+<!--   
+    <section class="client">
+      <div class="section__container client__container">
+        <h2 class="section__header">Happy Clients Says</h2>
+        <p class="section__description">
+          The seamless integration of innovation and user-centric design in
+          their work has left a lasting impression on our clients and elevated
+          our digital presence.
+        </p>
+        
+        <div class="swiper">
+          
+          <div class="swiper-wrapper">
+            
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Their ability to create visually stunning and highly
+                  functional designs is exceptional. As the CEO of Digital
+                  Dynamics Agency, I have witnessed firsthand the positive
+                  impact they have on our projects.
+                </p>
+                <h4>Michael Rodriguez</h4>
+                <h5>CEO, Digital Dynamics Agency</h5>
+                <img src="assets/client-1.jpg" alt="client" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  Working with Cooper was a revelation! Their designs not only
+                  captured the essence of our brand but elevated it to new
+                  heights.
+                </p>
+                <h4>Sarah Johnson</h4>
+                <h5>Marketing Director, Tech Innovations Inc.</h5>
+                <img src="assets/client-2.jpg" alt="client" />
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="client__card">
+                <p>
+                  I had the pleasure of collaborating with them on a critical
+                  project for Innovate Startups. Their ability to translate our
+                  brand vision into a visually compelling user experience was
+                  truly impressive.
+                </p>
+                <h4>Alexandra Thompson</h4>
+                <h5>Founder, Innovate Startups</h5>
+                <img src="assets/client-3.jpg" alt="client" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>  
+  -->
+  
+    <section class="section__container blog__container" id="projects">
+      <h2 class="section__header">It Helps Your Goals</h2>
+      <div class="blog__grid">
+        <div class="blog__card">
+          <img src="assets/Landing_Page.png" alt="projects" />
+          <div class="blog__content">
+            <h4><a href="https://anushkapatil2411.github.io/Responsive-Landing-Page/">Responsive Landing Travel Page</a></h4>
+            <p class="section__description">
+              Developed a responsive travel website landing page using HTML and CSS, featuring a visually appealing layout and a mobile-friendly navigation bar.
+            </p>
+            <div>
+              <div class="blog__socials">
+                <a href="https://github.com/anushkapatil2411/Responsive-Landing-Page"><i class="ri-github-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="assets/stopwatch.jpg" alt="blog" />
+          <div class="blog__content">
+            <h4><a href= "https://anushkapatil2411.github.io/Stopwatch-Web-Application/">Stopwatch Web Application</a></h4>
+            <p class="section__description">
+              Developed a stopwatch web app using HTML, CSS, and JavaScript. It is featuring the start/pause, lap recording, and reset functions for easy time tracking and friendly interface.            </p>
+            <div>
+              <div class="blog__socials">
+                <a href="https://github.com/anushkapatil2411/Stopwatch-Web-Application"><i class="ri-github-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="assets/tic tac toe.jpg" alt="blog" />
+          <div class="blog__content">
+            <h4><a href= "https://anushkapatil2411.github.io/Tic-Tac-Toe/">Tic Tac Toe Web Application</a></h4>
+            <p class="section__description">
+              Built a Tic Tac Toe Web App HTML, CSS, and JavaScript that allows two players to play the game interactively with features like win detection, turn-based gameplay, and a reset button to start a new game.
+            </p>
+            <div>
+              <div class="blog__socials">
+                <a href="https://github.com/anushkapatil2411/Tic-Tac-Toe"><i class="ri-github-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="assets/weather.jpg" alt="blog" />
+          <div class="blog__content">
+            <h4><a href="https://weather-web-application-sandy.vercel.app/">Weather Web Application</a></h4>
+            <p class="section__description">
+              Built a weather app using Javascript that fetches real-time weather data and displays it with a user-friendly interface, including features like location-based weather updates.
+            </p>
+            <div>
+              <div class="blog__socials">
+                <a href="https://github.com/anushkapatil2411/Weather-App"><i class="ri-github-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="blog__card">
+          <img src="assets/ewaste.jpg" alt="blog" />
+          <div class="blog__content">
+            <h4><a href= "https://drive.google.com/drive/folders/13kJ_89BK0kv8361yE9ezjWSZBzB47ZZi">E-Waste Management System</a></h4>
+            <p class="section__description">
+              Developed an e-waste management web app using Python and Django to manage data, track e-waste collection requests, and shows recycling and disposal processes
+            </p>
+            <div>
+              <div class="blog__socials">
+                <a href="https://github.com/anushkapatil2411/E-waste-Management-Web-Application-Eco-Reclaim-/tree/main"><i class="ri-github-fill"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!--Contact-->
+
+    <footer class="footer" id="contact">
+      <div class="section__container footer__container">
+        <h2 class="section__header">Contact Me</h2>
+        <p class="section__description">
+          Below are the details to reach out to me!
+        </p>
+<!--     <div class="footer__grid">
+          <div class="footer__content">
+            <h4>Anushka Patil</h4>
+            <p>
+              Explore more of my work, connect with me on social media, or drop
+              a message.
+            </p>
+            <p>
+              Let's continue the design conversation and embark on new creative
+              journeys together.
+            </p>
+            <p>Thank you for visiting!</p>
+          </div>-->
+
+          <div class="row d-flex contact-info mb-5">
+            <!-- Address -->
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="ri-map-2-line"></span> <!-- Map Sign Icon -->
+              </div>
+              <h3 class="mb-4">ADDRESS</h3>
+              <p>Mumbai, Maharashtra</p>
+            </div>
+          
+            <!-- Phone -->
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <span class="ri-phone-line"></span> <!-- Phone 2 Icon -->
+              </div>
+              <h3 class="mb-4">CONTACT NUMBER</h3>
+              <p><a href="tel://0101010101">+91 9920404580</a></p>
+            </div>
+          
+            <!-- Email -->
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <a href="mailto:info@yoursite.com"><span class="ri-send-plane-line"></span></a> <!-- Paper Plane Icon -->
+              </div>
+              <h3 class="mb-4">EMAIL</h3>
+              <p><a href="mailto:info@yoursite.com">patilanushka2411@gmail.com</a></p>
+            </div>
+          
+            <!-- Resume -->
+            <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+              <div class="icon d-flex align-items-center justify-content-center">
+                <a href= "https://drive.google.com/drive/folders/1okJ5P0gU56jJmcSMHCRnDBYmZlzij45L"><span class="ri-global-line"></span></a> <!-- Globe Icon -->
+              </div>
+              <h3 class="mb-4">DOWNLOAD RESUME</h3>
+              <p><a href="https://drive.google.com/drive/folders/1okJ5P0gU56jJmcSMHCRnDBYmZlzij45L">Resume</a></p>
+            </div>
+          </div><br/><br/>
+            
+          <div class="row justify-contact-footer">
+            <div class="col-md-7 ftco-animate text-center">
+              <h2>Have a<span> Question?  </span> <a href="https://forms.gle/Wh9LAEoYpYPLg6sA7" class="btn btn-primary py-3 px-5">Click Here</a> </h2>
+            </div>
+          </div>
+            <br>
+            <ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
+              <li class="ftco-animate normal-txt">Find me on  </li>
+              <li class="ftco-animate"><a href="https://www.github.com/anushkapatil2411"><i class="ri-github-fill"></i></a></li>
+              <li class="ftco-animate"><a href="https://www.linkedin.com/in/anushkapatil2411/"><i class="ri-linkedin-fill"></i></a></li>  
+              <li class="ftco-animate"><a href="mailto:patilanushka2411@gmail.com"><i class="ri-mail-fill"></i></a></li>
+            </ul>
+            <br>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Anushka Patil All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
